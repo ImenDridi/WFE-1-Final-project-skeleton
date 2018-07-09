@@ -5,11 +5,19 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { WrapperComponent } from './components/wrapper/wrapper.component';
+import { ChatAppComponent } from './components/chat-app/chat-app.component';
+import { AboutComponent } from './components/about/about.component';
+import { ChildChatBoxComponent } from './components/child-chat-box/child-chat-box.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    WrapperComponent
+    WrapperComponent,
+    ChatAppComponent,
+    AboutComponent,
+    ChildChatBoxComponent,
+
   ],
   imports: [
     BrowserModule,
