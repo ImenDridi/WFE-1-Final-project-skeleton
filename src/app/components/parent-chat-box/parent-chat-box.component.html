@@ -1,0 +1,40 @@
+
+
+<ul>
+  <li>
+    <div class="header">
+      <div class="box">
+        <div class="inner">
+          <span>chat~Vive</span>
+        </div>
+        <div class="inner">
+          <span>chat~Vive</span>
+        </div>
+      </div>
+    </div>
+  </li>
+
+<div class="gender" Type="text" placeholder="Enter your gender"><strong>Select your gender:</strong><br>
+
+  <input type="radio" id="male" [(ngModel)]="myRadio" value="1">Male
+  <input type="radio" id="female" [(ngModel)]="myRadio" value="2">Female
+  <input type="radio" id="other" [(ngModel)]="myRadio" value="3">Other
+</div>
+
+ <Input class="newusername" Type="text" [(ngModel)]="myRadio1" placeholder="Enter a username" >
+ <button class="RegistrationBtn">Register</button>
+
+
+<!-- in the outter (parent) component we have a test input element bound to somevariable -->
+<input class="mainChatBox" type="text" [(ngModel)]="somevariable">
+<!-- we show the variable to chang as changes happen at somevariable -->
+
+
+<!-- the inner (child) component is used and the somevariable is passed to it as sampleInput
+     it also handles an event FROM the child component named sampleOutput. the $event is a
+     special variable that contains the emitted value. in this case the value is just
+     assigned to nextnextVariable -->
+<app-child-chat-box></app-child-chat-box>
+<!-- the nextnextVariable is shown -->
+
+
