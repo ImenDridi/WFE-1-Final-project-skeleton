@@ -3,7 +3,8 @@
         <i (click)="showAbout=true" class="fas fa-info"></i>
     </div>
     <div class="panel">
-        <app-chat-app></app-chat-app>
+        <app-parent-chat-box></app-parent-chat-box>
+        <!-- <app-chat-app></app-chat-app> -->
     </div>
     <div class="about" *ngIf="showAbout">
         <p>This is the final project of<br><br><strong>[Imen DRIDI]</strong><br><br>as [HER] participation in
@@ -15,4 +16,4 @@
            To <strong>contact REvive Greece</strong> use <a href="mailto:info@revivegreece.org">info@revivegreece.org</a></p>
         <p><i (click)="showAbout=false" class="fas fa-times close"></i></p>
     </div>
-</div> 
+</div>

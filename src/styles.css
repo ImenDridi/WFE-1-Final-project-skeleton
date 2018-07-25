@@ -5,65 +5,65 @@ style{
     margin :0;
     padding: 0;
     }
-    
+
     body{
     background-position: left top;
-    background-image:url("/assets/background2.jpg");;
+    background-image:url("/assets/background2.jpg");
     }
-    
+
     .header{
         background-color:#DEB887;
         text-align: left;
-        height:70px;
+        height:50px;
         width:150px;
     }
 
-    
+
     .box {
         display: flex;
     }
-    
+
     .box .inner {
         width: 50px;
-        height: 30px;
+        height: 20px;
         line-height: 60px;
-        font-size: 2em;
+        font-size: 20px;
         font-family: Brush Script MT;
         font-weight: bold;
         white-space: nowrap;
         float:right;
-       
+
     }
-    
+
     .box .inner:first-child {
         background-color: #00b3b3;
         color: navajowhite;
         transform-origin: right;
         transform: perspective(100px) rotateY(-30deg);
     }
-    
+
     .box .inner:last-child {
         background-color: #E9967A;
         color:#006666;
         transform-origin: left;
         transform: perspective(100px) rotateY(30deg);
     }
-    
+
     .box .inner span {
         position: absolute;
         animation: marquee 5s linear infinite;
     }
-    
+
     .box .inner:first-child span {
         animation-delay: 2.5s;
         left: -30%;
     }
-    
+
     @keyframes marquee {
         from {
             left: 100%;
         }
-    
+
         to {
             left: -100%;
         }
@@ -76,37 +76,37 @@ style{
         overflow: hidden;
         background-color:#DEB887;
     }
-    
+
     li {
         float: left;
     }
-    
+
     li a {
         display: block;
         color:#8B0000;
         text-align: center;
-        padding: 14px 16px;
+        padding: 8px 8px;
         text-decoration: none;
     }
-    
+
     li a:hover:not(.active) {
         background-color:#7eaacd;
     }
-    
+
     .active {
         background-color: 	#8B0000;
         color:white;
     }
-    
-    
+
+
     .dropdown {
         float: left;
         overflow: hidden;
     }
-    
+
     .dropdown .dropbtn {
         cursor: pointer;
-        font-size: 16px ;    
+        font-size: 16px ;
         border: none;
         outline: none;
         color: #8B0000;
@@ -114,13 +114,13 @@ style{
         background-color: inherit;
         font-family: inherit;
         margin: 0;
-    
+
     }
-    
+
     .navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
         background-color:#7eaacd;
     }
-    
+
     .dropdown-content {
         display: none;
         position: absolute;
@@ -129,7 +129,7 @@ style{
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1;
     }
-    
+
     .dropdown-content a {
         float: none;
         color: black;
@@ -138,17 +138,17 @@ style{
         display: block;
         text-align: left;
     }
-    
+
     .dropdown-content a:hover {
         background-color:#00b3b3;
     }
-    
-    
-    
+
+
+
     .show {
         display: block;
     }
-    
+
     div.gallery {
         border: 1px solid #ccc;
         height:200px;
@@ -157,66 +157,66 @@ style{
             margin-top:40px;
             margin-left:70px;
     }
-    
+
     div.gallery:hover {
         border: 1px solid #777;
         cursor:hand;
-        
+
     }
-    
+
     div.gallery img {
         width: 100%;
     cursor:hand;}
-        
+
      h2{
          text-align:center;
-      } 
-    
-    
+      }
+
+
     div.desc {
         padding: 5px;
         text-align: center;
         color:white;
-    
+
     }
-    
+
     * {
         box-sizing: border-box;
     }
-    
+
     .responsive {
         padding: 0 6px;
         float: left;
         margin: 5px;
         margin-top:1px;
-        
+
     }
-    
+
     .responsive :hover{
     cursor:hand;}
-    
+
     @media only screen and (max-width: 700px) {
         .responsive {
             width: 49.99999%;
             margin: 6px 0;
         }
     }
-    
+
     @media only screen and (max-width: 500px) {
         .responsive {
             width: 100%;
         }
     }
-    
+
     .clearfix:after {
         content: "";
         display: table;
         clear: both;
     }
-    
+
     img:hover{
-    cursor:hand;} 
-    
+    cursor:hand;}
+
     input[type=text] {
         width: 300px;
         height: 10px;
@@ -227,18 +227,18 @@ style{
         color:#e6e6e6;
         background-color: white;
         background-image:'searchicon.png';
-        background-position: 10px 10px; 
+        background-position: 10px 10px;
         background-repeat: no-repeat;
         padding: 12px 20px 12px 40px;
         -webkit-transition: width 0.4s ease-in-out;
         transition: width 0.4s ease-in-out;
         font-style:italic;
     }
-    
+
     input[type=text]:focus {
         width: 90%;
     }
-    
+
     .container{
     background-color:#20B2AA;
     height:250px;
@@ -251,25 +251,25 @@ style{
     color:white;
     margin-top:40px;
     }
-    
+
     .form-control{
     font-style:italic;
     font-size:10px;
     border-radius:5px;
     }
-    
+
     .btn btn-default:hover{
     background-color:lightblue;
     border-radius:7px;
     }
-    
+
     a{
-    
+
     color: white;
     }
-    
+
     /* Styling of the home page description */
- 
+
  .HomePagesDescription{
     margin-left:250px;
     margin-top:0;
@@ -277,16 +277,16 @@ style{
     font-family:Brush Script MT;
     font-size:20px;
      }
-     
+
      .multipleDevicesUsage{
      float:left;
      }
 
      /* CHAT ROOM STYLING */
- 
+
  /* Vertical Menu styling */
 
- 
+
  .vertical-menu {
     width: 200px;
 	position:absolute;
@@ -311,7 +311,7 @@ style{
 
 .dropbtn1 {
     cursor: pointer;
-    font-size: 16px;    
+    font-size: 16px;
     border: none;
     outline: none;
     color: #8B0000;
@@ -355,9 +355,9 @@ style{
 
 
  /* End of vertical Menu styling */
- 
+
  /* Chat Box styling */
- 
+
  .chatRoomWrapper{
 display: -webkit-flex;
 display:flex;
@@ -368,9 +368,9 @@ width:400px;
 margin-left:500px;
 margin-top:10px;
  }
- 
 
- 
+
+
  #mainChatBox{
   height:400px;
   width:350px;
@@ -382,7 +382,7 @@ margin-top:10px;
     margin-top:5px;
  padding:2px;
  }
- 
+
  #chatBoxSender{
   height:70px;
   width:350px;
@@ -398,7 +398,7 @@ margin-top:10px;
   padding:10px;
   font-size:10px;
  }
- 
+
  .chatSendBtn{
  background-color:#FFA07A;
  color:#8B0000;
@@ -410,23 +410,23 @@ margin-top:10px;
   padding:2px;
   font-style:italic;
  }
- 
+
  .Exit{
 	margin-left:30px;
 	display:inline;
 	position:relative;
  }
- 
+
  .wrapperHead{
 color:blue;
 padding:5px;
 font-size:12px;
 font-family:cursive;
  }
- 
+
  .Emojisdropbtn{
 	cursor: pointer;
-    font-size: 16px;    
+    font-size: 16px;
     border: none;
     outline: none;
     color: #8B0000;
@@ -434,14 +434,14 @@ font-family:cursive;
     font-family: inherit;
     margin:0;
  }
- 
+
  /*Registration form styling */
-	
+
 *{
     margin:0px;
     padding:0px;
     }
-   
+
    #container1{
     width:370px;
     height:600px;
@@ -474,7 +474,7 @@ font-family:cursive;
     }
    .firstnameorlastname{
      margin-right:20px;
-     
+
     }
    .input_name{
     width:300px;
@@ -511,8 +511,8 @@ font-family:cursive;
     font-size:18px;
     }
    .birthday_title{
-    font-size:16px; 
-    color:#8b919d; 
+    font-size:16px;
+    color:#8b919d;
     font-weight:normal;
     padding:0 0 10px 0;
     }
@@ -523,7 +523,7 @@ font-family:cursive;
     font-size:12px;
     color:#8b919d;
    padding-top:10px;}
-    
+
     .birthdayYear{
     overflow: scroll;
     }
@@ -540,12 +540,12 @@ font-family:cursive;
     margin-top:10px;
     cursor: pointer;
     position:relative;
-   
+
     }
    #errorBox{
     color:#F00;
     }
-    
+
     /* End of registration form styling */
 
     /* Styling the contact form */
@@ -554,7 +554,7 @@ font-family:cursive;
     margin-left:10px;
     margin-top:10px;
 }
- 
+
     #comment{
         margin-left:70px;
         margin-top:20px;
@@ -581,3 +581,4 @@ font-family:cursive;
     .btn-primary:hover{
     background-color:lightblue;
     }
+

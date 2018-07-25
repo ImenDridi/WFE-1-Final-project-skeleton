@@ -25,9 +25,11 @@
  <button class="RegistrationBtn">Register</button>
 
 
-<!-- in the outter (parent) component we have a test input element bound to somevariable -->
-<input class="mainChatBox" type="text" [(ngModel)]="somevariable">
-<!-- we show the variable to chang as changes happen at somevariable -->
+<ul class="mainChatBox" type="text">
+<li *ngFor="let message of getAllMessages()">
+  {{message}} {{message.avatar}}{{message.username}} {{message.date}}{{message.time}}{{message.Message}}
+</li>
+</ul>
 
 
 <!-- the inner (child) component is used and the somevariable is passed to it as sampleInput

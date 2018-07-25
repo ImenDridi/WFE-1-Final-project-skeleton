@@ -7,6 +7,7 @@
     top: 0;
     bottom: 0;
 }
+
 .toolbar {
     height: 30px;                             /* CHANGE THE HEIGHT ONLY IF ABSOLUTELY NECCESSARY */
     width: 100%;
@@ -26,7 +27,8 @@
     cursor: pointer;
 }
 .panel {
-        background-color:#DEB887 ; /* CHANGE THE COLOR TO ONE THAT MATCHES YOUR APP */
+    background-position: left top;
+    background-image:url("/assets/background2.jpg"); /* CHANGE THE COLOR TO ONE THAT MATCHES YOUR APP */
     flex-grow:1;
     overflow-y:auto;
     overflow-x:auto;
